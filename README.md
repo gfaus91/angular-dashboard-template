@@ -1,59 +1,96 @@
-# AngularTemplate
+# Modern Angular Template
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+Un template limpio y moderno de Angular con las últimas características del framework.
 
-## Development server
+## 🚀 Características
 
-To start a local development server, run:
+- **Angular 18+** con componentes standalone
+- **Tailwind CSS** configurado para estilos modernos
+- **Routing** configurado y listo para usar
+- **TypeScript** con configuración optimizada
+- **Responsive Design** que funciona en todos los dispositivos
+- **Arquitectura moderna** con las mejores prácticas
 
-```bash
-ng serve
+## 📦 Estructura del Proyecto
+
+```
+src/
+├── app/
+│   ├── app.ts              # Componente principal
+│   ├── app.html            # Template principal
+│   ├── app.scss            # Estilos del componente
+│   ├── app.config.ts       # Configuración de la aplicación
+│   └── app.routes.ts       # Configuración de rutas
+├── index.html              # Archivo HTML principal
+├── main.ts                 # Punto de entrada
+└── styles.scss             # Estilos globales
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🛠️ Instalación
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+1. Clona el repositorio:
 ```bash
-ng generate component component-name
+git clone https://github.com/gfaus91/angular-dashboard-template.git
+cd angular-dashboard-template
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+2. Instala las dependencias:
 ```bash
-ng generate --help
+npm install
 ```
 
-## Building
-
-To build the project run:
-
+3. Ejecuta el servidor de desarrollo:
 ```bash
-ng build
+npm start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+4. Abre tu navegador en `http://localhost:4200`
 
-## Running unit tests
+## 📝 Scripts Disponibles
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- `npm start` - Ejecuta el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm test` - Ejecuta las pruebas unitarias
+- `npm run lint` - Ejecuta el linter
 
-```bash
-ng test
-```
+## 🎨 Personalización
 
-## Running end-to-end tests
+### Colores y Tema
+El template utiliza Tailwind CSS para los estilos. Puedes personalizar los colores y el tema editando el archivo `tailwind.config.js`.
 
-For end-to-end (e2e) testing, run:
+### Componentes
+Todos los componentes están configurados como componentes standalone, lo que hace que el código sea más modular y fácil de mantener.
 
-```bash
-ng e2e
-```
+## 🏗️ Tecnologías Utilizadas
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- **Angular 18+** - Framework principal
+- **TypeScript** - Lenguaje de programación
+- **Tailwind CSS** - Framework de estilos
+- **SCSS** - Preprocesador de CSS
+- **ESLint** - Linter para JavaScript/TypeScript
 
-## Additional Resources
+## 📱 Responsive Design
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+El template está completamente optimizado para dispositivos móviles y de escritorio, utilizando las clases responsive de Tailwind CSS.
+
+## 🤝 Contribuir
+
+1. Haz fork del proyecto
+2. Crea una rama para tu característica (`git checkout -b feature/amazing-feature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some amazing feature'`)
+4. Push a la rama (`git push origin feature/amazing-feature`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para más detalles.
+
+## 🔗 Enlaces Útiles
+
+- [Documentación de Angular](https://angular.dev)
+- [Documentación de Tailwind CSS](https://tailwindcss.com)
+- [Guía de TypeScript](https://www.typescriptlang.org)
+
+---
+
+**¡Disfruta construyendo aplicaciones increíbles con Angular! 🚀**
